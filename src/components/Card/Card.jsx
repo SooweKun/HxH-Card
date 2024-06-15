@@ -9,8 +9,10 @@ export const Card = ({link, color, imgs}) => {
                 <img src={imgs[2]} alt="" />
             )}
             <div className={Styles.amgs}>
-                <img src={imgs[0]} alt="" className={Styles.crd1}/>
-                <img src={imgs[1]} alt="" className={Styles.crd2}/>
+                <img src={imgs[0]} alt="" className={Styles.crd1} />
+                <a href={link}>
+                    <img src={imgs[1]} alt="" className={Styles.crd2} />
+                </a>
             </div>
         </div>
     )

@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Hisoka{
+    width: 1125px;
+    height: 605px;
+    background: url("/src/assets/background hisoka.png");
+    border-radius: 15px;
+    background: linear-gradient(white, #D33092);
+
+    .razm1{
+        max-width: 425px;
+        margin: 0 auto;
+
+        .razm2{
+            max-width: 405px;
+            margin: 0 auto;
+
+            .container{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+
+                .back{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    margin-top: 50px;
+                    gap: 15px;
+                    height: 50px;
+
+                    >a{
+                        >img{
+                            width: 50px;
+                            height: 50px;
+                        }
+                    }
+
+                    >h1{
+                        font-size: 48px;
+                        color: #FF39B0;
+                    }
+                }
+
+                >p{
+                    display: flex;
+                    text-align: start;
+                    width: 403px;
+                    height: 285px;
+                    font-size: 16px;
+                    border-radius: 15px;
+                    padding-top: 5PX;
+                    padding-left: 5px;
+                    margin-top: 30px;
+                    background: linear-gradient(#70526c, #270c23);
+                    color: #ED95E0;
+                }
+
+                .battons{
+                    display: flex;
+                    flex-direction: column;
+                    margin-top: 30px;
+
+                    >button{
+                        width: 393px;
+                        height: 50px;
+                        background-color: #AE4AA0;
+                        border: none;
+                        border-radius: 10px;
+                        font-size: 14px;
+                        color: white;
+                    }
+
+                    .knps{
+                        display: flex;
+                        justify-content: center;
+                        margin-top: 30px;
+                        gap: 40px;
+
+                        >button{
+                            width: 153px;
+                            height: 50px;
+                            background-color: #AE4AA0;
+                            border: none;
+                            border-radius: 10px;
+                            font-size: 14px;
+                            color: white;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

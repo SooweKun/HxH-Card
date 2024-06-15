@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Killua{
+    background: linear-gradient(#38409d85, #1c3a7c);
+    border-radius: 15px;
+    width: 1125px;
+    height: 606px;
+
+    .bg{
+        background: url("/src/assets/моделька киллы.png");
+        width: 1300px;
+        height: 606px;
+        background-size: cover;
+
+        .razm{
+            max-width: 1095px;
+            display: flex;
+            justify-content: flex-end;
+
+            .Main{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                width: 420px;
+                height: 606px;
+                
+                .back{
+                    display: flex;
+                    align-items: center;
+                    gap: 15px;
+                    height: 50px;
+                    margin-top: 30px;
+
+                    >h1{
+                        font-size: 48px;
+                        color: #5379EC;
+                    }
+
+                    >a{
+                        >img{
+                            width: 50px;
+                            height: 50px;
+                        }
+                    }
+                }
+
+                >p{
+                    display: flex;
+                    text-align: start;
+                    width: 435px;
+                    height: 310px;
+                    font-size: 18px;
+                    border-radius: 15px;
+                    padding-top: 8px;
+                    padding-left: 8px;
+                    margin-top: 20px;
+                    background: #3948833f;
+                    color: #2d1fc2;
+                }
+
+                .battons{
+                    display: flex;
+                    justify-content: center;
+                    flex-wrap: nowrap;
+                    align-items: center;
+                    flex-direction: column;
+                    margin-top: 30px;
+
+                    >button{
+                        width: 390px;
+                        height: 55px;
+                        background-color: #394883;
+                        border: none;
+                        border-radius: 5px;
+                        font-size: 14px;
+                        color: white;
+                    }
+
+                    .knps{
+                        display: flex;
+                        justify-content: center;
+                        margin-top: 30px;
+                        gap: 56px;
+
+                        >button{
+                            width: 153px;
+                            height: 38px;
+                            border: none;
+                            border-radius: 5px;
+                            font-size: 14px;
+                            color: white;
+                            background-color: #5467B3;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+

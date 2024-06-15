@@ -8,23 +8,23 @@ export const GLAV = () => {
         <div className={Styles.GLAV}>
             <Card
                 color="#2CB448"
-                link="/components/cards/gon/Gon.jsx"
+                link="/Gon"
                 imgs={[
-                    "/src/assets/gon/Group 1.png", "/src/assets/gon/Rectangle 5.png"]}
+                    "/src/assets/Group 1 (1).png", "/src/assets/Rectangle 5.png"]}
             />
             
             <Card
                 color="#C93AA6"
-                link="/"
+                link="/Hisoka"
                 imgs={[
-                    "/src/assets/hisoka/hisoka.png", "/src/assets/hisoka/Rectangle 6.png", "/public/icon.svg"]}
+                    "/src/assets/hisoka.png", "/src/assets/Rectangle 6.png", "/public/icon.svg"]}
             />
 
             <Card
                 color="#333C6C"
-                link="/"
+                link="/Killua"
                 imgs={[
-                    "/src/assets/killua/kilal.png", "/src/assets/killua/Rectangle 7.png"]}
+                    "/src/assets/kilal.png", "/src/assets/Rectangle 7.png"]}
             />
         </div>
     )
